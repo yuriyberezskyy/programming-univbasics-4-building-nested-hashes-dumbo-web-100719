@@ -10,7 +10,8 @@ def monopoly_with_second_tier
   monopoly = {
     :railroads => 
     {
-       :pieces => 4,
+       :pieces => 4
+      
     } 
     
   }
@@ -25,7 +26,11 @@ def monopoly_with_third_tier
     :railroads => 
     {
        :pieces => 4,
-       :rent_in_dollars => 4
+       :rent_in_dollars => 
+       {
+         :one_piece_owned => 25,
+         :second_piece_owned =>
+       }
     } 
   }
   # When you start writing the implementation for this method, copy the Hash
